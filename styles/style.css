@@ -102,7 +102,6 @@ ol {
   width: 194px;
   height: 103px;
   object-fit: cover;
-  flex-shrink: 3;
 }
 
 .content__video-card-description-container {
@@ -154,6 +153,12 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.content__video-card-description {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .visually-hidden {
